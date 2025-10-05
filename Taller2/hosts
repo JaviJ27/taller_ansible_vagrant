@@ -2,13 +2,13 @@ all:
   children:
     servidores_web:
       hosts:
-        nombre_de_la_primera_maquina: 
-          ansible_ssh_host: 
-          ansible_ssh_user: 
-          ansible_ssh_private_key_file:
+        deb13jose1: 
+          ansible_ssh_host: deb13jose1 
+          ansible_ssh_user: usuario
+          ansible_ssh_private_key_file: /home/javier/.ssh/JJG
     servidores_bd:
       hosts:
-        nombre_de_la_segunda_maquina: 
-          ansible_ssh_host:
-          ansible_ssh_user:
-          ansible_ssh_private_key_file:
+        deb13jose2: 
+          ansible_ssh_host: deb13jose2
+          ansible_ssh_user: usuario
+          ansible_ssh_private_key_file: /home/javier/.ssh/JJG

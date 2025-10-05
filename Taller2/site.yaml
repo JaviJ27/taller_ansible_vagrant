@@ -1,14 +1,14 @@
-- hosts: 
+- hosts: all
   become: true
   roles:
-   - role: 
+   - role: commons
 
-- hosts: 
+- hosts: deb13jose1
   become: true
   roles:
-   - role: 
+   - role: apache2
 
-- hosts: 
+- hosts: deb13jose2
   become: true
   roles:
-   - role: 
+   - role: mariadb
